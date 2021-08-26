@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * To change this template use File | Settings | File and Code Templates.
  */
 @RestController
-@RequestMapping("/api/demo")
+@RequestMapping
 public class DemoController {
 
     @GetMapping
